@@ -23,10 +23,12 @@ Windows: `activate myenv`
 macOS and Linux: `source activate myenv`
 
 3- Have MySQL installed and the following environment variables defined to access the Database:
-  JOB_CRAWLER_MYSQL_DB_HOST
-  JOB_CRAWLER_MYSQL_DB_NAME
-  JOB_CRAWLER_MYSQL_DB_USER
-  JOB_CRAWLER_MYSQL_DB_PASSWORD
+`JOB_CRAWLER_MYSQL_DB_HOST`
+`JOB_CRAWLER_MYSQL_DB_NAME`
+`JOB_CRAWLER_MYSQL_DB_USER`
+`JOB_CRAWLER_MYSQL_DB_PASSWORD`
+
+*PS: I'm using Ubuntu Linux*
 
 4- Run it
 `python main.py`
