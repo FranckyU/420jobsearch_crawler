@@ -1,0 +1,32 @@
+name: job_crawler
+channels:
+- anaconda
+- defaults
+dependencies:
+- sqlalchemy=1.1.13=py27hb0a01da_0
+- beautifulsoup4=4.6.0=py27h3f86ba9_1
+- ca-certificates=2017.08.26=h1d4fec5_0
+- certifi=2017.11.5=py27h71e7faf_0
+- libedit=3.1=heed3624_0
+- libffi=3.2.1=hd88cf55_4
+- libgcc-ng=7.2.0=h7cc24e2_2
+- libstdcxx-ng=7.2.0=h7a57d05_2
+- ncurses=6.0=h9df7e31_2
+- openssl=1.0.2n=hb7f436b_0
+- pip=9.0.1=py27ha730c48_4
+- python=2.7.14=h1571d57_29
+- readline=7.0=ha6073c6_4
+- setuptools=36.5.0=py27h68b189e_0
+- sqlite=3.20.1=hb898158_2
+- tk=8.6.7=hc745277_3
+- wheel=0.30.0=py27h2bc6bb2_1
+- zlib=1.2.11=ha838bed_2
+- pip:
+  - chardet==3.0.4
+  - idna==2.6
+  - pony==0.7.3
+  - pymysql==0.8.0
+  - requests==2.18.4
+  - urllib3==1.22
+prefix: /home/andy/anaconda2/envs/job_crawler
+
