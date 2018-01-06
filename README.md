@@ -28,7 +28,7 @@ macOS and Linux: `source activate myenv`
 `JOB_CRAWLER_MYSQL_DB_USER`
 `JOB_CRAWLER_MYSQL_DB_PASSWORD`
 
-*PS: I'm using Ubuntu Linux*
+*PS: I'm using Ubuntu Linux and I define them in my ~/.bashrc*
 
 4- Run it
 `python main.py`
