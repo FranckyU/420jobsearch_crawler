@@ -37,11 +37,11 @@ macOS and Linux: `source activate myenv`
 
 Actually it fetches the pages sequentially:
 
-1- goes to homepage
-2- determines the total pages length from the pagination at the bottom of the page
-3- generates a url for each page in the pagination and visits each one
-4- on each list page, follows the link of each job ad
-5- parse the job page and inserts/update database records
+1. goes to homepage
+2. determines the total pages length from the pagination at the bottom of the page
+3. generates a url for each page in the pagination and visits each one
+4. on each list page, follows the link of each job ad
+5. parse the job page and inserts/update database records
 
 ## CAN IT BE IMPROVED ?
 
