@@ -6,6 +6,7 @@ This project is a Python written web crawler that scraps for job ads at https://
 
 - Requests [http://docs.python-requests.org/en/master/]
 - Pony ORM [https://ponyorm.com/]
+- PyMySQL driver [https://github.com/PyMySQL/PyMySQL] which is mandatory in order to make Pony working.
 - BeautifulSoup [https://www.crummy.com/software/BeautifulSoup/]
 
 I'm using Anaconda [https://conda.io] to manage an isolated python environment containing these dependencies. Please check [https://conda.io/docs/user-guide/getting-started.html] for instructions
