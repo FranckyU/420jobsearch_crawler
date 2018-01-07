@@ -52,5 +52,5 @@ But here we're IO bound thus the best way to process these jobs concurrently is 
 
 ## KNOWN ISSUES
 
-- We can quickly reach the request cap limit. Need request spacing a strategy to overcome that, with an external supervisor like a crontab to fetch the pages in small batches.
+- We quickly reach the request cap limit of the server, thus needing a strategy to overcome that. An external scheduler like a crontab can for instance slice the work to fetch the pages in small batches.
 - Encoding issue between  Python-ORM-MySQL, I bypassed it by not storing the job description for some records.
